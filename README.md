@@ -1,4 +1,4 @@
-# Websockets Example
+# WebSockets Example
 
 Recently, I was asked to show how WebSockets can allow a web-based client to handle events as they are produced,
 instead of querying a database for changes.
@@ -17,15 +17,14 @@ The example consists of 3 distinct software components:
 * A **web client** that allows for connecting to the server and posting text messages.
   - This is just a simple chat client, written with JavaScript, HTML & CSS, [out of that, the index.js script is where you want to look](./server/web/index.js).
 
-## What are websockets?
+## What are WebSockets?
 
-Websockets are sockets over the web.
+>WebSockets are sockets over the web.
 
-Okay, maybe that didn't really clarify anything, but it is a very accurate statement.
-For the purposes of the programmer, websockets are no more complicated than standard TCP sockets.
+For the purposes of the programmer, WebSockets are no more complicated than standard TCP sockets.
 It's a communication medium (transport protocol?) that allows us to implement any kind of communication protocol that we can think of.
 That means that we can go beyond standard client-server communication and create client-intercommunication and perhaps peer to peer systems.
-Counter-intuitively, we still need to have a websocket server running, which sounds a lot like client-server.
+Counter-intuitively, we still need to have a WebSocket server running, which sounds a lot like client-server.
 However, the most important distinction is, in my opinion, that we can communicate between client and server in both directions.
 
 [More about WebSockets, from the good, good people at Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications)
@@ -100,7 +99,7 @@ If you have NodeJS properly installed, `npm update` installs the required depend
 
 Assuming that everything went well, the following should be visible in the console:
 ```
-Server is now listening for http requests on port 5000 and Websocket Messages on port 5001
+Server is now listening for http requests on port 5000 and WebSocket Messages on port 5001
 ```
 
 There might also be a warning about an experimental feature, but it is irrelevant.

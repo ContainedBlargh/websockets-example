@@ -113,4 +113,4 @@ Someone just connected!
 ```
 
 Now, write you name in the top field and post a message in the bottom field.
-If everything goes well, you messages will be bouncing back from the server.
+If everything goes well, your messages will be bouncing back from the server.

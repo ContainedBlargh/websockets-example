@@ -80,7 +80,7 @@ const populateChatWindow = () => {
     messagesRequest.send()
 }
 
-//This is were the script-part of the script is taking place.
+//This is where the script-part of the script is taking place.
 
 /*Setup the Websocket connection to the server.*/
 const messageSocket = new WebSocket("ws://localhost:5001")
